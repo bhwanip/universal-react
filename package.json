@@ -1,8 +1,8 @@
 {
-  "name": "universal-javascript-react-redux-example",
+  "name": "universal-react",
   "author": "Jeremiah Billmann",
   "version": "1.0.0",
-  "description": "A simple Isomorphic/Universal JavaScript example using React, Redux, React Router, and Node.js that is capable of running with or without JavaScript enabled in the browser.",
+  "description": "A simple Universal (Isomorphic) React application using Redux and React Router that is capable of running with or without JavaScript enabled in the browser.",
   "scripts": {
     "start": "forever --minUptime 1000 --spinSleepTime 1000 -c \"node --harmony\" ./dist/server.js",
     "build-server": "webpack --colors --display-error-details --config configs/webpack.server.js",

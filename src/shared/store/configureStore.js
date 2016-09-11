@@ -3,16 +3,11 @@ import thunkMiddleware from 'redux-thunk'
 import rootReducer from '../reducers'
 
 function configureStore(initialState) {
-    const store = createStore(
-      rootReducer,
-      initialState,
-      applyMiddleware(thunkMiddleware)
-    )
+    let store = createStore(rootReducer, initialState, applyMiddleware(thunkMiddleware))
 
     if (module.hot) {
         module.hot.accept('../reducers', () => {
-            const nextRootReducer = require('../reducers')
-            store.replaceReducer(nextRootReducer)
+            store.replaceReducer(require('../reducers'))
         })
     }
 

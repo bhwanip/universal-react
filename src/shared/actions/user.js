@@ -44,7 +44,7 @@ function fetchUsers() {
     }
 }
 
-module.exports = {
+export default {
     updateUser,
     saveUser,
     addUser,

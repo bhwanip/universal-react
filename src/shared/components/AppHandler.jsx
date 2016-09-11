@@ -11,7 +11,7 @@ export default class AppHandler extends React.Component {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span className="icon-bar"></span>
                             </button>
-                            <Link className="navbar-brand" to="/">Isomorphic App</Link>
+                            <Link className="navbar-brand" to="/">Universal React</Link>
                         </div>
                         <div className="navbar-collapse collapse">
                             <ul className="nav navbar-nav">

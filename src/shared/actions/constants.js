@@ -1,9 +1,7 @@
-const constants = {
+export default {
     REQUEST_USERS: 'REQUEST_USERS',
     RECEIVE_USERS: 'RECEIVE_USERS',
     REQUEST_SAVE_USER: 'REQUEST_SAVE_USER',
     RECEIVE_SAVE_USER: 'RECEIVE_SAVE_USER',
     UPDATE_USER: 'UPDATE_USER'
 }
-
-export default constants
